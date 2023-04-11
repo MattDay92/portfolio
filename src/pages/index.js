@@ -39,26 +39,26 @@ export default function Home() {
         </div>
       </nav>
       <header className='d-flex justify-content-center'>
-        <div id='hero' className='col-12 hero'>
-          <div className='col-6 text-center'>
+        <div id='hero' className='row col-10 hero mb-5'>
+          <div className='col-md-6 col text-center'>
             <h1 className='header'>Matt Day</h1>
-            <div className='my-3'>
+            <div className='social-icons my-3'>
               <Link href='https://www.linkedin.com/in/mattday92' target='_blank'><i className="fa-brands fa-linkedin mx-5"></i></Link>
               <Link href='https://www.github.com/mattday92' target='_blank'><i className="fa-brands fa-github mx-5"></i></Link>
             </div>
             <h2 className='my-3 subheader'>Full-Stack Software Developer</h2>
           </div>
-          <div className='col-6'>
+          <div className='d-flex justify-content-center col-md-6'>
             <Image className='hero-image' src={FullHeadshot} alt="Picture of Matt Day" />
           </div>
         </div>
       </header>
       <div id='about' className='about d-flex justify-content-center col-12'>
         <div className='row col-10 text-center'>
-          <div className='col-6'>
+          <div className='col-md-6 d-flex align-items-center justify-content-center'>
             <Image className='about-image' src={Headshot} />
           </div>
-          <div className='col-6 about-text'>
+          <div className='col-md-6 about-text'>
             <h1 className='header'>About Me</h1>
             <p className='plain-text my-2'>I am a hard-working, diligent, fast-learning, and patient software engineer, proficient in Python and Javascript,
               with a Bachelor’s of Science degree in Mathematics Education from Indiana University.  In my free time, I enjoy exploring
@@ -79,8 +79,8 @@ export default function Home() {
         </div>
       </div>
       <div id='projects' className='projects d-flex justify-content-center col-12'>
-        <div className='row col-10 text-center'>
-          <h1>Projects</h1>
+        <div className='row col-10 text-center d-flex justify-content-center'>
+          <h1 className='header'>Projects</h1>
           <div className='row d-flex justify-content-around'>
             <div className="card my-5" >
               <Image src={Marvelous} className="card-img-top" alt="..." />

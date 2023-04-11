@@ -66,22 +66,45 @@ a, .nav-link {
 
 .header {
   display: inline-block;
-  font-size: 5vw;
+  font-size: 300% !important;
+  margin-top: 10% !important;
+}
+
+@media (min-width: 2500px ){
+  .header{
+    font-size: 1000% !important;
+  }
+  .subheader {
+    font-size: 400% !important;
+  }
+  .nav-link{
+    font-size: 250% !important;
+  }
+  .fa-brands, .fa-solid {
+    font-size: 400% !important;
+  }
+  .plain-text {
+    font-size: 220% !important;
+  }
+  .card {
+    width: 35rem !important;
+    height: 34rem !important;
+  }
 }
 
 .subheader {
   display: inline-block;
-  font-size: 2vw;
+  font-size: 200%;
 }
 
 .hero-image {
-  width: 40vw;
+  width: 80%;
   height: auto;
   box-shadow: 0 8px 4px -4px rgba(27, 3, 28, 0.41);
 }
 
 .fa-brands, .fa-solid {
-  font-size: 2.5vw;
+  font-size: 200%;
 }
 
 .about {
@@ -96,7 +119,7 @@ a, .nav-link {
 
 .plain-text {
   display: inline-block;
-  font-size: 1.2vw;
+  font-size: 120%;
 }
 
 .about-image {
@@ -126,10 +149,10 @@ a, .nav-link {
   margin-top: 15px;
 }
 
-.card button {
+.card .btn {
   position: absolute;
-  right: 30%;
-  bottom: 0;
+  right: 32%;
+  bottom: 0 ;
   margin-bottom: 15px;
 }
 
