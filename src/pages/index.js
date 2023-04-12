@@ -28,12 +28,12 @@ export default function Home() {
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fas fa-bars"></i>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="collapse navbar-collapse row text-center" id="navbarNav">
             <div class="navbar-nav">
-              <LinkScroll to="hero" spy={true} smooth={true} offset={50} duration={500} className="nav-link" >Matt Day</LinkScroll >
-              <LinkScroll to="about" spy={true} smooth={true} offset={50} duration={500} className="nav-link" >About</LinkScroll >
-              <LinkScroll to="projects" spy={true} smooth={true} offset={50} duration={500} className="nav-link" >Projects</LinkScroll >
-              <Link href={'https://drive.google.com/file/d/1H3TVOKOALIKDIbP8N-JXbNCdKYSXRhMC/view?usp=sharing'} target='_blank' spy={true} smooth={true} offset={50} duration={500} className="nav-link" >Resume</Link >
+              <LinkScroll to="hero" spy={true} smooth={true} offset={50} duration={500} className="nav-link col-3" >Matt Day</LinkScroll >
+              <LinkScroll to="about" spy={true} smooth={true} offset={50} duration={500} className="nav-link col-3" >About</LinkScroll >
+              <LinkScroll to="projects" spy={true} smooth={true} offset={50} duration={500} className="nav-link col-3" >Projects</LinkScroll >
+              <Link href={'https://drive.google.com/file/d/1H3TVOKOALIKDIbP8N-JXbNCdKYSXRhMC/view?usp=sharing'} target='_blank' spy={true} smooth={true} offset={50} duration={500} className="nav-link col-3" >Resume</Link >
             </div>
           </div>
         </div>
