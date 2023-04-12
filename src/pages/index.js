@@ -23,7 +23,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
 
       </Head>
-      <nav class="navbar navbar-expand-sm bg-dark position-relative">
+      <nav class="navbar  navbar-expand-sm position-relative">
         <div class="container-fluid">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fas fa-bars"></i>
@@ -82,28 +82,28 @@ export default function Home() {
         <div className='row col-10 text-center d-flex justify-content-center'>
           <h1 className='header'>Projects</h1>
           <div className='row d-flex justify-content-around'>
-            <div className="card my-5" >
-              <Image src={Marvelous} className="card-img-top" alt="..." />
+            <div className="card my-5 px-0" >
+              <Image src={Marvelous} className="card-img-top" alt="Marvelous Screenshot" />
               <div className="card-body">
                 <h2 className="card-title">Marvelous</h2>
                 <p className="card-text">Marvelous that allows users to search and track information about Marvel Comics, share their thoughts on individual issues, and keep a list of their favorite books.</p>
-                <Link href={'https://marvelous-91080.web.app/'} target='_blank' className='btn'>More Information</Link>
+                <Link href={'https://marvelous-91080.web.app/'} target='_blank' className='btn'>Visit</Link>
               </div>
             </div>
-            <div className="card my-5" >
-              <Image src={Pokedex} className="card-img-top" alt="..." />
+            <div className="card my-5 px-0" >
+              <Image src={Pokedex} className="card-img-top" alt="Pokedex Screenshot" />
               <div className="card-body">
                 <h2 className="card-title">Pokedex</h2>
                 <p className="card-text">Become a Pokemon master by learning about over 1500 different Pokemon.  Create your team and battle your friends!</p>
-                <Link href={'https://platinum-phrygian-stocking.glitch.me/'} target='_blank' className='btn'>More Information</Link>
+                <Link href={'https://platinum-phrygian-stocking.glitch.me/'} target='_blank' className='btn'>Visit</Link>
               </div>
             </div>
-            <div className="card my-5">
-              <Image src={Weather} className="card-img-top" alt="..." />
+            <div className="card my-5 px-0">
+              <Image src={Weather} className="card-img-top" alt="Weather App Screenshot" />
               <div className="card-body">
                 <h2 className="card-title">Weather App</h2>
                 <p className="card-text">View today's weather for your location or anywhere else in the world!  </p>
-                <Link href={'https://weather-a4f7b.web.app/'} target='_blank' className='btn'>More Information</Link>
+                <Link href={'https://weather-a4f7b.web.app/'} target='_blank' className='btn'>Visit</Link>
               </div>
             </div>
           </div>

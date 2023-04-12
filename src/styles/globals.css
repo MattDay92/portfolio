@@ -45,7 +45,7 @@ a, .nav-link {
   padding-bottom: 2px !important;
   top: 0px;
   z-index: 100;
-  background: rgb(216,134,208) !important;
+  background: #0E7876 !important;
   box-shadow: 0 2px 2px 0 rgba(109, 109, 109, 0.779), 0 6px 30px 0 rgba(191, 191, 191, 0.603);
 }
 
@@ -124,7 +124,7 @@ a, .nav-link {
 
 .about-image {
   border-radius: 50%;
-  box-shadow: 0 2px 8px 0 rgba(109, 109, 109, 0.779), 0 6px 30px 0 rgba(191, 191, 191, 0.779);
+  box-shadow: 0 2px 8px 0 rgba(109, 109, 109, 0.779), 0 6px 30px 0 rgba(191, 191, 191, 0.412);
   width: 50%;
   height: auto;
 }
@@ -133,9 +133,10 @@ a, .nav-link {
   width: 22rem;
   height: 25rem;
   color: white;
-  background: rgba(169, 27, 152, 0.5);
+  background: #0E7876;
+  border: 0px !important;
   transition: transform 0.5s;
-  box-shadow: 0 2px 8px 0 rgba(109, 109, 109, 0.779), 0 6px 30px 0 rgba(191, 191, 191, 0.779);
+  box-shadow: 6px 6px 10px 0 rgba(191, 191, 191, 0.411);
 }
 
 .card:hover {
@@ -145,21 +146,18 @@ a, .nav-link {
 
 .card-img-top {
   height: auto;
-  border-radius: 5%;
-  margin-top: 15px;
 }
 
 .card .btn {
   position: absolute;
-  right: 32%;
+  right: 42%;
   bottom: 0 ;
   margin-bottom: 15px;
 }
 
 .btn {
-  background: rgba(254, 175, 245, 0.712);
+  background: #cecb17;
   box-shadow: 0 2px 8px 0 rgba(49, 49, 49, 0.779), 0 6px 30px 0 rgba(49, 49, 49, 0.779)
-
 }
 
 .btn:hover {
