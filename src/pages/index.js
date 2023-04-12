@@ -103,7 +103,7 @@ export default function Home() {
               <div className="card-body">
                 <h2 className="card-title">Weather App</h2>
                 <p className="card-text">View today's weather for your location or anywhere else in the world!  </p>
-                <Link href={'https://marvelous-91080.web.app/'} target='_blank' className='btn'>More Information</Link>
+                <Link href={'https://weather-a4f7b.web.app/'} target='_blank' className='btn'>More Information</Link>
               </div>
             </div>
           </div>
