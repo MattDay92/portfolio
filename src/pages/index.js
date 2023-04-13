@@ -98,14 +98,14 @@ export default function Home() {
                 <Link href={'https://platinum-phrygian-stocking.glitch.me/'} target='_blank' className='btn'>Visit</Link>
               </div>
             </div>
-            <div className="card my-5 px-0">
+            {/* <div className="card my-5 px-0">
               <Image src={Weather} className="card-img-top" alt="Weather App Screenshot" />
               <div className="card-body">
                 <h2 className="card-title">Weather App</h2>
                 <p className="card-text">View today's weather for your location or anywhere else in the world!  </p>
                 <Link href={'https://weather-a4f7b.web.app/'} target='_blank' className='btn'>Visit</Link>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
