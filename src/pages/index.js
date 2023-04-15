@@ -10,6 +10,9 @@ import Weather from '/public/Weather_Screenshot.png'
 import Pokedex from '/public/Pokedex_Screenshot.png'
 import * as Scroll from 'react-scroll';
 
+
+
+
 let LinkScroll = Scroll.Link;
 
 
@@ -30,9 +33,9 @@ export default function Home() {
           </button>
           <div class="collapse navbar-collapse row text-center" id="navbarNav">
             <div class="navbar-nav">
-              <LinkScroll to="hero" spy={true} smooth={true} offset={50} duration={500} className="nav-link col-3" >Matt Day</LinkScroll >
-              <LinkScroll to="about" spy={true} smooth={true} offset={50} duration={500} className="nav-link col-3" >About</LinkScroll >
-              <LinkScroll to="projects" spy={true} smooth={true} offset={50} duration={500} className="nav-link col-3" >Projects</LinkScroll >
+              <LinkScroll to="hero" spy={true} smooth={true} duration={500} className="nav-link col-3" >Matt Day</LinkScroll >
+              <LinkScroll to="about" spy={true} smooth={true} duration={500} className="nav-link col-3" >About</LinkScroll >
+              <LinkScroll to="projects" spy={true} smooth={true} duration={500} className="nav-link col-3" >Projects</LinkScroll >
               <Link href={'https://drive.google.com/file/d/1H3TVOKOALIKDIbP8N-JXbNCdKYSXRhMC/view?usp=sharing'} target='_blank' spy={true} smooth={true} offset={50} duration={500} className="nav-link col-3" >Resume</Link >
             </div>
           </div>
@@ -84,18 +87,46 @@ export default function Home() {
           <div className='row d-flex justify-content-around'>
             <div className="card my-5 px-0" >
               <Image src={Marvelous} className="card-img-top" alt="Marvelous Screenshot" />
-              <div className="card-body">
-                <h2 className="card-title">Marvelous</h2>
-                <p className="card-text">Marvelous that allows users to search and track information about Marvel Comics, share their thoughts on individual issues, and keep a list of their favorite books.</p>
-                <Link href={'https://marvelous-91080.web.app/'} target='_blank' className='btn'>Visit</Link>
+              <div className="card-body p-0">
+                <Link href={'https://marvelous-91080.web.app/'} target='_blank' ><h2 className="card-title my-2">Marvelous</h2></Link>
+                <p className="card-text mx-2">Marvelous that allows users to search and track information about Marvel Comics, share their thoughts on individual issues, and keep a list of their favorite books.</p>
+                <div class="accordion accordion-flush" id="accordionExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        More Information
+                      </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        Frontend UI:  React with Bootstrap and Material UI components<br /> Backend: Flask<br />Authentication using Firebase <br />User info stored using PostgreSQL
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
             <div className="card my-5 px-0" >
               <Image src={Pokedex} className="card-img-top" alt="Pokedex Screenshot" />
-              <div className="card-body">
-                <h2 className="card-title">Pokedex</h2>
-                <p className="card-text">Become a Pokemon master by learning about over 1500 different Pokemon.  Create your team and battle your friends!</p>
-                <Link href={'https://platinum-phrygian-stocking.glitch.me/'} target='_blank' className='btn'>Visit</Link>
+              <div className="card-body p-0">
+                <Link href={'https://platinum-phrygian-stocking.glitch.me/'} target='_blank' ><h2 className="card-titl my-2">Pokedex</h2></Link>
+                <p className="card-text mx-2">Become a Pokemon master by learning about over 1500 different Pokemon.  Collect your own team of Pokemon and battle your friends!</p>
+                <div className='card-links'>
+                  <div class="accordion accordion-flush" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                          More Information
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          Frontend UI and Backend:  Flask with Bootstrap components<br /> Custom built authentication <br />User info stored using PostgreSQL
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
             {/* <div className="card my-5 px-0">

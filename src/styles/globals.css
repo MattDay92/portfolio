@@ -28,12 +28,12 @@ h2{
 
 
 a, .nav-link {
-  color: inherit;
+  color: white;
   text-decoration: none;
 }
 
 .nav-link:hover {
-  color: white;
+  color: #cecb17;
   cursor: pointer;
 }
 
@@ -114,7 +114,9 @@ a, .nav-link {
   padding-top: 5vh;
   padding-bottom: 5vh;
   height: 100vh;
-  color: white;
+  color: black;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(90deg, rgb(176, 106, 177) 0%, rgb(251, 251, 251) 100%);
 }
 
 .plain-text {
@@ -124,14 +126,14 @@ a, .nav-link {
 
 .about-image {
   border-radius: 50%;
-  box-shadow: 0 2px 8px 0 rgba(109, 109, 109, 0.779), 0 6px 30px 0 rgba(191, 191, 191, 0.412);
+  box-shadow: 0 2px 8px 0 rgba(172, 96, 164, 0.779), 0 6px 30px 0 rgba(199, 97, 189, 0.779);
   width: 50%;
   height: auto;
 }
 
 .card {
   width: 22rem;
-  height: 25rem;
+  height: fit-content;
   color: white;
   background: #0E7876;
   border: 0px !important;
@@ -148,16 +150,17 @@ a, .nav-link {
   height: auto;
 }
 
-.card .btn {
-  position: absolute;
-  right: 42%;
-  bottom: 0 ;
-  margin-bottom: 15px;
+
+.accordion-body {
+  color: black !important;
 }
 
+
 .btn {
-  background: #cecb17;
-  box-shadow: 0 2px 8px 0 rgba(49, 49, 49, 0.779), 0 6px 30px 0 rgba(49, 49, 49, 0.779)
+  background: #cecb17 !important;
+  box-shadow: 0 2px 8px 0 rgba(49, 49, 49, 0.779), 0 6px 30px 0 rgba(49, 49, 49, 0.779) !important;
+  border-radius: 10% !important;
+  color: black !important
 }
 
 .btn:hover {
@@ -176,3 +179,13 @@ a, .nav-link {
   font-size: 5vw;
 }
 
+.footer{
+  width: 100%;
+  height: fit-content;
+  padding-top: 2px ;
+  padding-bottom: 2px ;
+  top: 0px;
+  z-index: 100;
+  background: #0E7876 !important;
+  box-shadow: 0 2px 2px 0 rgba(109, 109, 109, 0.779), 0 6px 30px 10px rgba(191, 191, 191, 0.603);
+}
