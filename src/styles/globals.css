@@ -59,8 +59,7 @@ a, .nav-link {
   align-items: center;
   position: relative;
   padding-top: 5vh;
-  padding-bottom: 5vh;
-  height: 95vh;
+  height: 100vh;
   color: white;
 }
 
@@ -98,10 +97,41 @@ a, .nav-link {
 }
 
 .hero-image {
-  width: 80%;
-  height: auto;
+  position: absolute;
+  bottom: 0;
+  width: auto;
+  height: 80vh;
   box-shadow: 0 8px 4px -4px rgba(27, 3, 28, 0.41);
 }
+
+@media (max-width: 825px) {
+  .hero-image{
+    position: relative;
+  }
+
+  .header {
+    font-size: 200% !important;
+  }
+
+  .subheader{
+    font-size: 150% !important;
+  }
+
+  .fa-brands{
+    width: 50% !important;
+  }
+
+  .about-image{
+    width: 70% !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .about-image{
+    width: 50% !important;
+  }
+}
+
 
 .fa-brands, .fa-solid {
   font-size: 200%;
