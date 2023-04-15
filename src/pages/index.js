@@ -26,8 +26,6 @@ export default function Home() {
         <meta name="title" property="og:title" content='Matt Day | Portfolio' />
         <meta name="image" property="og:image" content="https://i.ibb.co/4SHLZv4/Portfolio-Thumbnail.png" />
         <meta name="description" property="og:description" content='Matt Day is a full-stack software engineer from Indianapolis, IN.' />
-        <meta property='og:image:width' content='975' />
-        <meta property='og:image:height' content='620' />
         <meta property="og:url" content='https://portfolio-mattday92.vercel.app/' />
         <meta property="og:type" content='website' />
         <link rel="icon" href="/Matt_Full.png" />
