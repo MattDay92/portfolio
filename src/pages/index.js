@@ -70,7 +70,7 @@ export default function Home() {
             <h1 className='header'>About Me</h1>
             <p className='plain-text my-2'>I am a hard-working, diligent, fast-learning, and patient software engineer, proficient in Python and Javascript,
               with a Bachelor’s of Science degree in Mathematics Education from Indiana University.  In my free time, I enjoy exploring
-              the performing arts.  This has helped me to develop my skills as a creative problem solver, collaborative team member,
+              the performing arts as a professional guitarist and musical theatre writer.  This has helped me to develop my skills as a creative problem solver, collaborative team member,
               and independent thinker.</p>
             <div className='d-flex justify-content-around my-2'>
               <i class="fa-brands fa-html5"></i>

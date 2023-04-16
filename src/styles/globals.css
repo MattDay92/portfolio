@@ -61,7 +61,15 @@ a, .nav-link {
   padding-top: 5vh;
   height: 100vh;
   color: white;
+  animation: hero 2.5s;
 }
+
+@keyframes hero {
+  0% {opacity: 0;}
+  50% {opacity: 0.1;}
+  100% {opacity: 1;}
+}
+
 
 .header {
   display: inline-block;
@@ -135,6 +143,12 @@ a, .nav-link {
 
 .fa-brands, .fa-solid {
   font-size: 200%;
+  animation: social-icons 2.5s;
+}
+
+@keyframes social-icons {
+  50% {opacity: 0;}
+  100% {opacity: 1;}
 }
 
 .about {
