@@ -104,7 +104,7 @@ export default function Home() {
                     </h2>
                     <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                       <div class="accordion-body">
-                        Frontend UI:  React with Bootstrap and Material UI components<br /> Backend: Flask<br />Authentication using Firebase <br />User info stored using PostgreSQL <br /> <a className='btn my-3 repo-link' href='https://github.com/MattDay92/FinalProject' target='_blank'>Github Repo</a>
+                        Frontend UI:  React with Bootstrap and Material UI components<br /> Backend: Flask<br />Authentication using Firebase <br />User info stored using PostgreSQL <br /> <a className='btn my-3 repo-link' href='https://github.com/MattDay92/Marvelous' target='_blank'>Github Repo</a>
                       </div>
                     </div>
                   </div>
