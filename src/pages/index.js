@@ -94,7 +94,7 @@ export default function Home() {
               <Image src={Marvelous} className="card-img-top" alt="Marvelous Screenshot" />
               <div className="card-body p-0">
                 <Link href={'https://marvelous-91080.web.app/'} target='_blank' ><h2 className="card-title my-2">Marvelous</h2></Link>
-                <p className="card-text mx-2">Marvelous that allows users to search and track information about Marvel Comics, share their thoughts on individual issues, and keep a list of their favorite books.</p>
+                <p className="card-text mx-2">Marvelous allows users to search and track information about Marvel Comics, share their thoughts on individual issues, and keep a list of their favorite books.</p>
                 <div class="accordion accordion-flush" id="accordionExample">
                   <div class="accordion-item">
                     <h2 class="accordion-header" id="headingOne">
