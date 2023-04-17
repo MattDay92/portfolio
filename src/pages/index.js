@@ -104,7 +104,7 @@ export default function Home() {
                     </h2>
                     <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                       <div class="accordion-body">
-                        Frontend UI:  React with Bootstrap and Material UI components<br /> Backend: Flask<br />Authentication using Firebase <br />User info stored using PostgreSQL
+                        Frontend UI:  React with Bootstrap and Material UI components<br /> Backend: Flask<br />Authentication using Firebase <br />User info stored using PostgreSQL <br /> <a className='btn my-3 repo-link' href='https://github.com/MattDay92/FinalProject' target='_blank'>Github Repo</a>
                       </div>
                     </div>
                   </div>
@@ -126,7 +126,7 @@ export default function Home() {
                       </h2>
                       <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                          Frontend UI and Backend:  Flask with Bootstrap components<br /> Custom built authentication <br />User info stored using PostgreSQL
+                          Frontend UI and Backend:  Flask with Bootstrap components<br /> Custom built authentication <br />User info stored using PostgreSQL <br /> <a className='btn my-3 repo-link' href='https://github.com/MattDay92/pokemon' target='_blank'>Github Repo</a>
                         </div>
                       </div>
                     </div>

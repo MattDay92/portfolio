@@ -201,7 +201,7 @@ a, .nav-link {
 
 
 .btn {
-  background: #cecb17 !important;
+  background: #0E7876 !important;
   box-shadow: 0 2px 8px 0 rgba(49, 49, 49, 0.779), 0 6px 30px 0 rgba(49, 49, 49, 0.779) !important;
   border-radius: 10% !important;
   color: black !important
@@ -232,4 +232,8 @@ a, .nav-link {
   z-index: 100;
   background: #0E7876 !important;
   box-shadow: 0 2px 2px 0 rgba(109, 109, 109, 0.779), 0 6px 30px 10px rgba(191, 191, 191, 0.603);
+}
+
+.repo-link{
+  color: white !important;
 }
