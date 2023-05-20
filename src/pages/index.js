@@ -3,9 +3,10 @@ import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
-import Headshot from '/public/Matt_Day_Headshot.jpg'
+import Headshot from '/public/favicon.ico'
 import FullHeadshot from '/public/Matt_Full.png'
 import Marvelous from '/public/Marvelous_Screenshot.png'
+import Harvest from '/public/Harvest_Screenshot.png'
 import Weather from '/public/Weather_Screenshot.png'
 import Pokedex from '/public/Pokedex_Screenshot.png'
 import * as Scroll from 'react-scroll';
@@ -117,10 +118,10 @@ export default function Home() {
               </div>
             </div>
             <div className="card my-5 px-0" >
-              <Image src={Pokedex} className="card-img-top" alt="Pokedex Screenshot" />
+              <Image src={Harvest} className="card-img-top" alt="Harvest Tracker Screenshot" />
               <div className="card-body p-0">
-                <Link href={'https://platinum-phrygian-stocking.glitch.me/'} target='_blank' ><h2 className="card-titl my-2">Pokedex</h2></Link>
-                <p className="card-text mx-2">Become a Pokemon master by learning about over 1500 different Pokemon.  Collect your own team of Pokemon and battle your friends!</p>
+                <Link href={'https://harvest-tracker-cf6d9.web.app/'} target='_blank' ><h2 className="card-title my-2">Happy Harvest Tracker</h2></Link>
+                <p className="card-text mx-2">Hey, amateur gardener! Track the daily quantity and quality of all of your harvested vegetables with the Happy Harvest Tracker! </p>
                 <div className='card-links'>
                   <div class="accordion accordion-flush" id="accordionExample">
                     <div class="accordion-item">
@@ -130,6 +131,29 @@ export default function Home() {
                         </button>
                       </h2>
                       <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          Frontend UI:  React.js with Bootstrap and Material UI components<br /> Authentication using Firebase <br />User info stored using the Firebase NoSQL Realtime Database <br />Images obtained using the Unsplash API <br /> <a className='btn my-3 repo-link' href='https://github.com/MattDay92/HarvestTracker' target='_blank'>Github Repo</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="card my-5 px-0" >
+              <Image src={Pokedex} className="card-img-top" alt="Pokedex Screenshot" />
+              <div className="card-body p-0">
+                <Link href={'https://platinum-phrygian-stocking.glitch.me/'} target='_blank' ><h2 className="card-title my-2">Pokedex</h2></Link>
+                <p className="card-text mx-2">Become a Pokemon master by learning about over 1500 different Pokemon.  Collect your own team of Pokemon and battle your friends!</p>
+                <div className='card-links'>
+                  <div class="accordion accordion-flush" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                          More Information
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
                           Frontend UI and Backend:  Flask with Bootstrap components<br /> Custom built authentication <br />User info stored using PostgreSQL <br /> <a className='btn my-3 repo-link' href='https://github.com/MattDay92/pokemon' target='_blank'>Github Repo</a>
                         </div>
