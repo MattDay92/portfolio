@@ -26,6 +26,9 @@ h2{
   font-weight: 400;
 }
 
+nav{
+  z-index: 10;
+}
 
 a, .nav-link {
   color: white;
@@ -62,6 +65,7 @@ a, .nav-link {
   height: 100vh;
   color: white;
   animation: hero 5s;
+  z-index: 5;
 }
 
 .big-hero-1{
@@ -98,6 +102,10 @@ a, .nav-link {
   width: 80%;
   text-align: center;
   font-size: 8vw;
+}
+
+.social-icon:hover{
+  color:#cecb17;
 }
 
 @keyframes hero {
@@ -196,7 +204,6 @@ a, .nav-link {
 
 .fa-brands, .fa-solid {
   font-size: 200%;
-  animation: social-icons 2.5s;
 }
 
 @keyframes social-icons {

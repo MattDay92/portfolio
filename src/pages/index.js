@@ -51,8 +51,8 @@ export default function Home() {
           <div className='col text-center'>
             <h1 className='header'>Matt Day</h1>
             <div className='social-icons my-3'>
-              <Link href='https://www.linkedin.com/in/mattday92' target='_blank'><i className="fa-brands fa-linkedin mx-5"></i></Link>
-              <Link href='https://www.github.com/mattday92' target='_blank'><i className="fa-brands fa-github mx-5"></i></Link>
+              <Link className='social-icon' href='https://www.linkedin.com/in/mattday92' target='_blank'><i className="fa-brands fa-linkedin mx-5"></i></Link>
+              <Link className='social-icon' href='https://www.github.com/mattday92' target='_blank'><i className="fa-brands fa-github mx-5"></i></Link>
             </div>
             <h2 className='my-3 subheader'>Full-Stack Software Developer</h2>
           </div>
