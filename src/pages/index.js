@@ -7,8 +7,8 @@ import Headshot from '/public/favicon.ico'
 import FullHeadshot from '/public/Matt_Full.png'
 import Marvelous from '/public/Marvelous_Screenshot.png'
 import Harvest from '/public/Harvest_Screenshot.png'
-import Weather from '/public/Weather_Screenshot.png'
 import Pokedex from '/public/Pokedex_Screenshot.png'
+import FCOMM from '/public/FCOMM.png'
 import * as Scroll from 'react-scroll';
 
 
@@ -141,10 +141,10 @@ export default function Home() {
               </div>
             </div>
             <div className="card my-5 px-0" >
-              <Image src={Pokedex} className="card-img-top" alt="Pokedex Screenshot" />
+              <Image src={FCOMM} className="card-img-top" alt="Pokedex Screenshot" />
               <div className="card-body p-0">
-                <Link href={'https://platinum-phrygian-stocking.glitch.me/'} target='_blank' ><h2 className="card-title my-2">Pokedex</h2></Link>
-                <p className="card-text mx-2">Become a Pokemon master by learning about over 1500 different Pokemon.  Collect your own team of Pokemon and battle your friends!</p>
+                <Link href={'https://fcomm-choirs.web.app/'} target='_blank' ><h2 className="card-title my-2">FCOMM Choirs</h2></Link>
+                <p className="card-text mx-2">Informational website for the Franklin Community High School choir program in Franklin, IN.  </p>
                 <div className='card-links'>
                   <div class="accordion accordion-flush" id="accordionExample">
                     <div class="accordion-item">
@@ -155,7 +155,7 @@ export default function Home() {
                       </h2>
                       <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                          Frontend UI and Backend:  Flask with Bootstrap components<br /> Custom built authentication <br />User info stored using PostgreSQL <br /> <a className='btn my-3 repo-link' href='https://github.com/MattDay92/pokemon' target='_blank'>Github Repo</a>
+                          Frontend UI:  React with Bootstrap Components<br /> Vanilla JS to change header images <br /> Vanilla CSS to scroll through sponsor information  <a className='btn my-3 repo-link' href='https://github.com/MattDay92/FCHSChoirs' target='_blank'>Github Repo</a>
                         </div>
                       </div>
                     </div>
@@ -163,14 +163,6 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            {/* <div className="card my-5 px-0">
-              <Image src={Weather} className="card-img-top" alt="Weather App Screenshot" />
-              <div className="card-body">
-                <h2 className="card-title">Weather App</h2>
-                <p className="card-text">View today's weather for your location or anywhere else in the world!  </p>
-                <Link href={'https://weather-a4f7b.web.app/'} target='_blank' className='btn'>Visit</Link>
-              </div>
-            </div> */}
           </div>
         </div>
       </div>

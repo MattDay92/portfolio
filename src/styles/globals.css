@@ -248,6 +248,10 @@ a, .nav-link {
   box-shadow: 6px 6px 10px 0 rgba(191, 191, 191, 0.411);
 }
 
+.card-text{
+  min-height: 100px;
+}
+
 .card-title:hover{
   color: #cecb17;
 }
