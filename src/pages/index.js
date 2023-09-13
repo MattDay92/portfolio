@@ -143,7 +143,7 @@ export default function Home() {
             <div className="card my-5 px-0" >
               <Image src={FCOMM} className="card-img-top" alt="Pokedex Screenshot" />
               <div className="card-body p-0">
-                <Link href={'https://fcomm-choirs.web.app/'} target='_blank' ><h2 className="card-title my-2">FCOMM Choirs</h2></Link>
+                <Link href={'https://www.fchschoirs.com/'} target='_blank' ><h2 className="card-title my-2">FCOMM Choirs</h2></Link>
                 <p className="card-text mx-2">Informational website for the Franklin Community High School choir program in Franklin, IN.  </p>
                 <div className='card-links'>
                   <div class="accordion accordion-flush" id="accordionExample">
