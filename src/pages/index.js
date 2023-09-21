@@ -9,6 +9,7 @@ import Marvelous from '/public/Marvelous_Screenshot.png'
 import Harvest from '/public/Harvest_Screenshot.png'
 import Pokedex from '/public/Pokedex_Screenshot.png'
 import FCOMM from '/public/FCOMM.png'
+import FCOMMBands from '/public/FranklinBandsScreenshot.png'
 import * as Scroll from 'react-scroll';
 
 
@@ -156,6 +157,29 @@ export default function Home() {
                       <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
                           Frontend UI:  React with Bootstrap Components<br /> Vanilla JS to change header images <br /> Vanilla CSS to scroll through sponsor information  <a className='btn my-3 repo-link' href='https://github.com/MattDay92/FCHSChoirs' target='_blank'>Github Repo</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="card my-5 px-0" >
+              <Image src={FCOMMBands} className="card-img-top" alt="Franklin Bands Screenshot" />
+              <div className="card-body p-0">
+                <Link href={'https://www.franklinbands.org/'} target='_blank' ><h2 className="card-title my-2">Franklin Bands</h2></Link>
+                <p className="card-text mx-2">Website for the Franklin Community High School band and guard program in Franklin, IN.  </p>
+                <div className='card-links'>
+                  <div class="accordion accordion-flush" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseThree">
+                          More Information
+                        </button>
+                      </h2>
+                      <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          Frontend UI:  React with Bootstrap Components<br /> Vanilla JS to add grow and shading effects to 'Equipment Sales' page <br /> Vanilla CSS to scroll through sponsor information  <a className='btn my-3 repo-link' href='https://github.com/MattDay92/fchs-bands' target='_blank'>Github Repo</a>
                         </div>
                       </div>
                     </div>
