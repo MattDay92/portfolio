@@ -43,7 +43,7 @@ export default function Home() {
               <LinkScroll to="hero" spy={true} smooth={true} duration={500} className="nav-link col-3" >Matt Day</LinkScroll >
               <LinkScroll to="about" spy={true} smooth={true} duration={500} className="nav-link col-3" >About</LinkScroll >
               <LinkScroll to="projects" spy={true} smooth={true} duration={500} className="nav-link col-3" >Projects</LinkScroll >
-              <Link href={'https://drive.google.com/file/d/1LXaBRZEys7FSXehDggZn0c9kz1IAJva_/view?usp=sharing'} target='_blank' spy={true} smooth={true} offset={50} duration={500} className="nav-link col-3" >Resume</Link >
+              <Link href={'https://docs.google.com/document/d/1wMqOaM-pxqhQrAf2xpEux0f_B6vIxfsEG5CI_WOUNtE/edit?usp=sharing'} target='_blank' className="nav-link col-3" >Resume</Link >
             </div>
           </div>
         </div>
