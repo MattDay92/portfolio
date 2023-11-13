@@ -188,7 +188,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="card my-5 px-0" >
+            {/* <div className="card my-5 px-0" >
               <Image src={MattDayMusic} className="card-img-top" alt="mattdaymusic.net screenshot" />
               <div className="card-body p-0">
                 <Link href={'https://mattdaymusic.net/'} target='_blank' ><h2 className="card-title my-2">Personal Music Website</h2></Link>
@@ -210,7 +210,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
