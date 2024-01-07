@@ -203,7 +203,7 @@ export default function Home() {
                       </h2>
                       <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                          Frontend UI:  No framework.  No pre-built components.  Just HTML, CSS, and JS. <br /> <a className='btn my-3 repo-link' href='https://github.com/MattDay92/mattdaymusic.net' target='_blank'>Github Repo</a>
+                          No framework.  No pre-built components.  Just plain ol' HTML, CSS, and JS. <br /> <a className='btn my-3 repo-link' href='https://github.com/MattDay92/mattdaymusic.net' target='_blank'>Github Repo</a>
                         </div>
                       </div>
                     </div>
