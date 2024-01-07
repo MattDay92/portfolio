@@ -10,7 +10,7 @@ import Harvest from '/public/Harvest_Screenshot.png'
 import Pokedex from '/public/Pokedex_Screenshot.png'
 import FCOMM from '/public/FCOMM.png'
 import FCOMMBands from '/public/FranklinBandsScreenshot.png'
-import MattDayMusic from'/public/MattDayMusicScreenshot.png'
+import MattDayMusic from'/public/MattDayMusicScreenshotPurple.png'
 import * as Scroll from 'react-scroll';
 
 
@@ -188,10 +188,10 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            {/* <div className="card my-5 px-0" >
+            <div className="card my-5 px-0" >
               <Image src={MattDayMusic} className="card-img-top" alt="mattdaymusic.net screenshot" />
               <div className="card-body p-0">
-                <Link href={'https://mattdaymusic.net/'} target='_blank' ><h2 className="card-title my-2">Personal Music Website</h2></Link>
+                <Link href={'https://www.mattdaymusic.net/'} target='_blank' ><h2 className="card-title my-2">Personal Music Website</h2></Link>
                 <p className="card-text mx-2">Personal website for my other life as a musical theater composer!  </p>
                 <div className='card-links'>
                   <div class="accordion accordion-flush" id="accordionExample">
@@ -203,14 +203,14 @@ export default function Home() {
                       </h2>
                       <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                          Frontend UI:  React with Bootstrap Components<br /> <a className='btn my-3 repo-link' href='https://github.com/MattDay92/mattdaymusic' target='_blank'>Github Repo</a>
+                          Frontend UI:  No framework.  No pre-built components.  Just HTML, CSS, and JS. <br /> <a className='btn my-3 repo-link' href='https://github.com/MattDay92/mattdaymusic.net' target='_blank'>Github Repo</a>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
       </div>
