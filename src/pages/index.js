@@ -11,6 +11,7 @@ import Pokedex from '/public/Pokedex_Screenshot.png'
 import FCOMM from '/public/FCOMM.png'
 import FCOMMBands from '/public/FranklinBandsScreenshot.png'
 import MattDayMusic from'/public/MattDayMusicScreenshotPurple.png'
+import ISK from '/public/ISKScreenshot.png'
 import * as Scroll from 'react-scroll';
 
 
@@ -174,7 +175,7 @@ export default function Home() {
                   <div class="accordion accordion-flush" id="accordionExample">
                     <div class="accordion-item">
                       <h2 class="accordion-header" id="headingFour">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
                           More Information
                         </button>
                       </h2>
@@ -197,13 +198,36 @@ export default function Home() {
                   <div class="accordion accordion-flush" id="accordionExample">
                     <div class="accordion-item">
                       <h2 class="accordion-header" id="headingFive">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
                           More Information
                         </button>
                       </h2>
                       <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
                           No framework.  No pre-built components.  Just plain ol' HTML, CSS, and JS. <br /> <a className='btn my-3 repo-link' href='https://github.com/MattDay92/mattdaymusic.net' target='_blank'>Github Repo</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="card my-5 px-0" >
+              <Image src={ISK} className="card-img-top" alt="Indian Springs Katahdins Screenshot" />
+              <div className="card-body p-0">
+                <Link href={'https://indianspringskatahdins.com'} target='_blank' ><h2 className="card-title my-2">Indian Springs Katahdins</h2></Link>
+                <p className="card-text mx-2">Website for a local business in Indiana!  </p>
+                <div className='card-links'>
+                  <div class="accordion accordion-flush" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingSix">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
+                          More Information
+                        </button>
+                      </h2>
+                      <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          Built using Vue.js <br /> Incorporating the Firebase Realtime Database and Email.js. <br /> <a className='btn my-3 repo-link' href='https://github.com/MattDay92/IndianSpringsKatahdins' target='_blank'>Github Repo</a>
                         </div>
                       </div>
                     </div>
