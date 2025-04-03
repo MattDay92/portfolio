@@ -12,6 +12,8 @@ import FCOMM from '/public/FCOMM.png'
 import FCOMMBands from '/public/FranklinBandsScreenshot.png'
 import MattDayMusic from'/public/MattDayMusicScreenshotPurple.png'
 import ISK from '/public/ISKScreenshot.png'
+import Triangle from '/public/TrianglePreviewImage.png'
+import HughesHarmonies from '/public/HughesHarmoniesScreenshot.png'
 import * as Scroll from 'react-scroll';
 
 
@@ -235,6 +237,55 @@ export default function Home() {
                 </div>
               </div>
             </div>
+
+            <div className="card my-5 px-0" >
+              <Image src={Triangle} className="card-img-top" alt="Triangle Asphalt Screenshot" />
+              <div className="card-body p-0">
+                <Link href={'https://triangleasphalt.com'} target='_blank' ><h2 className="card-title my-2">Triangle Asphalt</h2></Link>
+                <p className="card-text mx-2">Official Website for Triangle Asphalt Paving Corp.  Located in Lebanon, IN.</p>
+                <div className='card-links'>
+                  <div class="accordion accordion-flush" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingSeven">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
+                          More Information
+                        </button>
+                      </h2>
+                      <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          Built using React.js <br /> Full admin access and a custom contact form! <br /> <a className='btn my-3 repo-link' href='https://github.com/MattDay92/TriangleAsphalt' target='_blank'>Github Repo</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="card my-5 px-0" >
+              <Image src={HughesHarmonies} className="card-img-top" alt="Hughes Harmonies Screenshot" />
+              <div className="card-body p-0">
+                <Link href={'https://hughesharmonies.com'} target='_blank' ><h2 className="card-title my-2">Hughes Harmonies</h2></Link>
+                <p className="card-text mx-2">Hughes Harmonies provides both stock and custom show choir arrangements by Jerico Hughes.</p>
+                <div className='card-links'>
+                  <div class="accordion accordion-flush" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingEight">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="true" aria-controls="collapseEight">
+                          More Information
+                        </button>
+                      </h2>
+                      <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          Built using React.js <br /> Full stack website incorporating Google Firebase Storage and Realtime Database <br /> Full admin access and a custom contact form.  <br /> <a className='btn my-3 repo-link' href='https://github.com/MattDay92/HughesHarmonies' target='_blank'>Github Repo</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
